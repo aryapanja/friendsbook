@@ -1,0 +1,124 @@
+body {
+  background: linear-gradient(to right, #fffd85, #e6e35a);
+  font-family: "Ubuntu", sans-serif;
+  overflow: hidden;
+}
+.outer {
+  padding-left: 85vh;
+  padding-top: 30vh;
+}
+
+.logo {
+  margin-top: 37vh;
+  margin-left: 30vh;
+  font-size: 8vh;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.5);
+}
+.logo:hover {
+  color: #2c2020;
+}
+
+.text {
+  font-size: 3.5vh;
+  font-family: "Ubuntu", sans-serif;
+}
+.text:hover {
+  color: #ff2121;
+}
+.main {
+  background-color: #2c2020;
+  width: 400px;
+  height: 400px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  margin-top: -69vh;
+  margin-left: 50vh;
+}
+
+.sign {
+  padding-top: 40px;
+  color: #e94d4d;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.un {
+  width: 76%;
+  color: #e94d4d;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(203, 255, 106, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+form.form1 {
+  padding-top: 40px;
+}
+
+.pass {
+  width: 76%;
+  color: #e94d4d;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.un:focus,
+.pass:focus {
+  border: 2px solid rgba(191, 255, 89);
+}
+
+.submit {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #e94d4d, #c00000);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 35%;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(255, 255, 255, 0.04);
+}
+
+.forgot {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #e94d4d;
+  text-decoration: none;
+}

@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #333333;
+  font-size: 20px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: rgb(173, 173, 173) 1px solid;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+  background-color: #e94d4d;
+  margin-right: 4px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.navbar a:hover {
+  opacity: 0.8;
+}
+.navbar img {
+  float: left;
+  margin-left: 5px;
+}
+.navbar img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.navbar p {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 250px;
+}
+
+#main {
+  width: 30%;
+  margin-top: 20%;
+  margin-left: 35%;
+  box-shadow: 0px 3px 20px 1px #161616;
+}
+#change_name {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+#change_name:hover,
+#change_email:hover,
+#change_ppic:hover,
+#change_password:hover,
+#change_username:hover {
+  cursor: pointer;
+}
+#change_email {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+#change_username {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(68, 68, 68, 0.74);
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+#change_password {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(68, 68, 68, 0.74);
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+#change_ppic {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+#email_div {
+  display: none;
+  padding: 10px;
+}
+#name_div {
+  display: none;
+  padding: 10px;
+}
+#password_div {
+  display: none;
+  padding: 10px;
+}
+#username_div {
+  display: none;
+  padding: 10px;
+}

@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>Sign in</title>
+  <script>
+    function validate() {
+      var x = document.forms["myForm"]["uname"].value;
+      var y = document.forms["myForm"]["pass"].value;
+      if (x == "" || y == "") {
+        alert("All fields must be filled out");
+        return false;
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <h1 class="logo">friendsbook<span class="text"><br>Friendsbook helps you connect and share <br>with the people in your
+      life.</span></h1>
+  <div class="outer">
+
+    <div class="main">
+      <p class="sign" align="center"><a href="#">Sign-up</a></p>
+      <form class="form1" name="myForm" action="Login_process.jsp" onsubmit="return validate()" method="post">
+        <input class="un" type="text" name="uname" align="center" placeholder="Username">
+        <input class="pass" name="pass" type="password" align="center" placeholder="Password">
+        <input class="submit" type="Submit" , value="Login">
+        <p class="forgot" align="center"><a href="#">Forgot Password?</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
